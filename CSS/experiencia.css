@@ -25,3 +25,38 @@
 .experiencia-texto strong{
     color: black;
 }
+
+.empresa{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background-color: #ececec;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+}
+
+.empresa-texto{
+}
+
+
+/* .empresa-ano{ */
+    /* position: absolute;  */
+    /* top: 20px; */
+    /* left: -80px;
+    color: #525252;
+    font-size: 0.875rem;
+     
+/* } */
+
+
+.empresa-titulo{
+    padding-bottom:20px;
+}
+
+
+.empresa-habilidades{
+    margin-left: 40px; 
+
+}
