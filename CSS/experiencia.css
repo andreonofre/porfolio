@@ -37,8 +37,6 @@
     
 }
 
-.empresa-texto{
-}
 
 
 /* .empresa-ano{ */
@@ -52,11 +50,57 @@
 
 
 .empresa-titulo{
+    font-size: 1.8rem;
     padding-bottom:20px;
+    font-weight: bold;
+    margin-left: 20px;
 }
 
 
-.empresa-habilidades{
-    margin-left: 40px; 
 
+
+.empresa-texto{
+    font-size: 1.5rem;
+    color: #6e6868;
+    line-height: 1.4;
+}
+
+.empresa-habilidades{
+    display: flex;
+    margin-left: 20px; 
+    align-content: start;
+    flex-wrap: wrap;
+    gap: 10PX;
+}
+
+.empresa-habilidades li{
+    font-size: 1.5rem;
+    background-color: rgb(151, 158, 153);
+    padding: 10px 22px;
+    border-radius: 5px;
+}
+
+@media (max-width: 800px){
+    .experiencia{
+        grid-template-columns: 1fr;
+    }
+    .subtitulo{
+        font-size: 6rem;
+        line-height: 1;
+        text-transform: uppercase;
+        word-break: break-all;
+        max-width: 5ch;
+        /* vai ficar com o texto quebrado em 4 char por linha */
+    }
+    .empresa-texto{
+        font-size: 1.5rem;
+        color: #6e6868;
+        line-height: 1.4;
+    }
+    .empresa-habilidades li{
+        font-size: 1rem;
+        background-color: rgb(151, 158, 153);
+        padding: 10px 22px;
+        border-radius: 5px;
+    }
 }
