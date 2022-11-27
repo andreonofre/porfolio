@@ -4,7 +4,7 @@
     padding: 40px 20px;
     justify-content: space-between;
     align-items: center;
-    max-width: 1400px;
+    max-width: 2500px;
 }
 
 .header-menu{
@@ -34,10 +34,7 @@
         padding: 20px;
     }
 
-    .header-menu a:hover{
-        /* background-color: aqua; */
-    }
-
+    
     .header-menu a {
         background-color: azure;
         padding: 8px 15px;
